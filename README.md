@@ -335,7 +335,12 @@ related or neighboring rights to this work.
 ---
 
 <p align="center">
-  <a href="https://star-history.com/#0xNyk/council-of-high-intelligence&Date">
-    <img src="https://api.star-history.com/svg?repos=0xNyk/council-of-high-intelligence&type=Date" alt="Star History" width="400">
-  </a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/star-history-dark.svg">
+    <img src="assets/star-history-light.svg" alt="Star history chart" width="600">
+  </picture>
 </p>
+
+<!-- Charts are self-hosted (refreshed weekly by .github/workflows/star-chart.yml)
+     because api.star-history.com lowercases the repo owner and serves an empty
+     chart for this repo. -->
